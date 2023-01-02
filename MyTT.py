@@ -2,7 +2,8 @@
 # V2.1 2021-6-6 新增 BARSLAST函数
 # V2.2 2021-6-8 新增 SLOPE,FORCAST线性回归，和回归预测函数
   
-import numpy as np; import pandas as pd
+import numpy as np;
+import pandas as pd
 
 #------------------ 0级：核心工具函数 --------------------------------------------      
 def RD(N,D=3):   return np.round(N,D)        #四舍五入取3位小数 
